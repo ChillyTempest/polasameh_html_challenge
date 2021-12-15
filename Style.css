@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit" , sans-serif;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-left: 700px;
+    margin-right: 750px;
+}
+#card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 2px 16px;
+    width: 175px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+h1 { font-size: 15px; text-align: left;
+     color: hsl(0, 0%, 100%);    }
+div{
+    font-size: 11px; text-align: left;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+p1 {font-size: 11px; text-align: left; 
+    color:  hsl(178, 100%, 50%); }
+p2 {font-size: 11px; text-align: right; 
+    color:  hsl(215, 51%, 70%); }
+span {
+    font-size: 10px; text-align: left;
+    color: hsl(0, 0%, 100%); 
+}
+hr {
+    display: block;
+    border-color : hsl(215, 32%, 27%);
+    margin: 1em 0; padding: 0;
+}
+section{
+    font-size: 10px; text-align: left;
+    color : hsl(215, 51%, 70%)
+}
+img[alt~= Avatar]{
+    border: 1px solid white;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+img[alt~= Clock]{
+    margin-left: 42px;
+}
+img[alt~= Equilibrium]{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+hover:img[alt~= Equilibrium]{
+    opacity: 0;
+}
+a:link,a:active,a:visited {
+    text-decoration: none;
+}
+a:hover{
+    color:hsl(178, 100%, 50%)
+}
+
+@media (max-width: 375px) {
+    #card {
+    padding: 2px 16px;
+    width: 175px;
+    height: 300px;
+    }
+}
+
+ 
